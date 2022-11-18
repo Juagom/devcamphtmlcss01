@@ -1,0 +1,146 @@
+/* He preferido mantener todos los CCs en el mismo archivo y separar los bloques con comentarios */
+
+body {
+  margin: 0;
+  background: rgb(71,71,71);
+  background: linear-gradient(90deg, rgba(71,71,71,1) 0%, rgba(59,62,71,1) 26%, rgba(25,26,21,1) 70%, rgba(21,21,23,1) 100%);  
+  font-family: Calibri, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  font-size: 1.4em;
+}
+
+.navbar > .logoimg {
+  width: 200px;
+  height: 100%;
+  padding: 20px 50px 20px 20px ;
+}
+
+.navbar > .links-and-explore > .explore {
+  color: #f4e173;
+  font-size: 1.2rem;
+}
+
+.navbar > .links-and-explore > .links-wrapper {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+.navbar > .links-and-explore > .links-wrapper a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar > .links-and-explore > .links-wrapper > .navlink {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.navbar > .links-and-explore > .links-wrapper > .sparkchev {
+  margin-left: 25px;
+  color: #acacac;
+}
+
+.navbar > .links-and-explore > .links-wrapper > .sparkchev a {
+  color: #acacac;
+  text-decoration: none;
+}
+
+.navbar > .links-and-explore > .links-wrapper > .sparkchev > #chevron {
+  font-size: 1.0rem;
+}
+
+/* Page-container styles */
+
+.page-container {
+  display:flex;
+  padding: 40px 0px 40px 40px;
+  justify-content: space-between;
+}
+
+.left-column {
+  padding-right: 40px;
+}
+.left-column > .text1 {
+  font-size: 3.5em;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.left-column > .text2 {
+  font-size: 3em;
+  color: #b3b3b3;
+  padding-bottom: 40px;
+}
+
+.right-column > .overimg {
+  color: white;
+  font-size: 1.5em;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.right-column > .overimg > .bluetext {
+  color: #55d4fc; 
+}
+
+.right-column img{
+  width: 700px;
+}
+
+.calltoaction {
+  display: flex;
+  padding-right: 20px;
+}
+
+.calltoaction > .button1 {
+  padding: 10px 20px; 
+  font-size: 3.5em;
+  background-color: #4bce79;
+  color: black;
+  margin-right: 20px;
+  border: transparent;
+  border-radius: 5px;
+}
+
+.calltoaction > .button2 {
+  padding: 10px 20px; 
+  font-weight: bold;
+  font-size: 3.5em;
+  background-color: black;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+}
+
+/* Footer styles */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer > .buttonlink {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 100%;
+  height: 40px;
+  background-color: #36383f;
+  border: 1px solid #676767;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer > .buttonlink > .upup {
+  font-size: 1.3em;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
